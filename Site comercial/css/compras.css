@@ -1,22 +1,22 @@
-#camisa {margin-left: 10%; margin-top: 1.8%; border: 1px solid rgb(119, 116, 116); align-content: stretch;
-         margin-right: 25%; border-radius: 5px; height: 480px; width: 400px; 
-         box-shadow: 5px 5px 0px 0px rgb(124, 123, 123);}
+/*Referente a div da foto da camisa*/
+.foto-prd {margin-left: 6%; margin-bottom: 4%; border: 1px solid rgb(119, 116, 116); 
+           margin-right: 9%; border-radius: 5px; height: 480px; width: 400px; 
+           box-shadow: 5px 5px 0px 0px rgb(124, 123, 123);}
 
-.pagmenos {margin-left: 15%; width: 280px; height: 130px;}
+/*div da div de pagamento e compra*/         
+.pagmenos {margin-left: 15%; width: 280px; height: 130px; align-content: stretch;}
 
 .produtos {width:300px; height:420px; margin-left: 12.5%; margin-top: 7%; border-radius: 5px;}
 
-@media(max-width: 750px)
-{
-     body {flex-direction: column; flex-wrap: wrap;}
-     #menu {width: 50%; align-items: center; margin-left: 25%; padding: 10px;}
-     #camisa {margin-top: 290%; margin-left: -250%; min-width: 400px;}
-}
-
-.div-pagmenos {margin-left: 55%; border: 1px solid rgb(119, 116, 116); border-radius: 15px; 
-               height: 210px; width: 400px; margin-top: -43.5%; box-shadow: 7px 7px 0px 0px rgb(124, 123, 123);}
+.div-pagmenos {border: 1px solid rgb(119, 116, 116); border-radius: 15px; 
+               height: 210px; width: 400px; box-shadow: 7px 7px 0px 0px rgb(124, 123, 123);
+               margin-left: 6%;}
             
 .btn {padding: 3px; border-radius: 4px; background-color: rgb(47, 158, 53); color: aliceblue;
       width: 150px; height: 40px; margin-left: 58%;}   
       
-.comp {font: normal 20px Arial; margin-top: 4%;}      
+.comp {font: normal 20px Arial; margin-top: 4%;}
+
+.menu-compra {margin-top: -13%;}
+
+.descricao-prd {max-width: 450px; margin-top: 8%;}
