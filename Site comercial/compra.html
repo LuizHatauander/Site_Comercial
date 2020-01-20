@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/comercial2.css">
+    <link rel="stylesheet" type="text/css" href="css/compras.css">
+    <link rel="stylesheet" type="text/css" href="css/carrinho.css">
+    <title>Compra</title>
+</head>
+
+<body style="margin: 0%; background-color: rgb(241, 245, 244);">
+
+    <div id="topo">
+        <img src="logosid.png" style="margin-left: 3%; margin-top: 1%;">
+    </div>
+   
+   <!Aqui inicia a barra abaixo da logo>
+   <div id="opcoes"> 
+       <div id="subopcoes">
+         <a><img class="icons" src="ico-barra-opcoes/homeico.png" height="40px" class="icons-barra"></a> 
+         <a><img class="icons" src="ico-barra-opcoes/carrinhoico.png" height="40px" class="icons-barra"></a>
+         <a><img class="icons" src="ico-barra-opcoes/contatoico.png" height="40px" class="icons-barra"></a>
+         <a><img class="icons" src="ico-barra-opcoes/suporteico.png" height="40px" class="icons-barra"></a>
+       </div>
+   </div>
+   <!Termina a barra de opçoes abaixo da logo>
+
+   <!--Aqui inicia o menu lateral-->
+   <!div id="lateral">
+   <div id="menu" style="margin-left: 3%; margin-top: 4.5%;">
+     <ul>
+       <div class="title"><h3 align="center">MENU</h3></div>
+       <li><a href="">CALÇAS</a></li>
+       <li><a href="">VESTIDOS</a></li>
+       <li><a href="">ROUPAS SOCIAIS</a></li>
+       <li><a href="">INFANTIL</a></li>
+       <li><a href="">ACESSÓRIOS PET</a></li>
+       <li><a href="">MAQUIAGENS</a></li>
+     </ul>
+   </div> 
+   </!div> <!--Aqui termina o menu lateral--> 
+
+   <h1 align="center">Minhas Compras</h1><hr id="barra">
+
+   <section style="margin-left: 16%; display: flex; flex-wrap: wrap;">
+
+                        <table class="tabela" style="width: 80%">
+                           <tr class="text-table" style="background-color: #204d74">
+                                <td></td> 
+                                <td>Produto</td> 
+                                <td>Valor R$</td> 
+                                <td>X</td> 
+                                <td>Sub Total R$</td> 
+                                <td></td>                                        
+                            </tr>
+                            <tr>                                      
+                                <td> <img src="imgprodutos/camisadegrade.jpg" width="80px" height="80px" alt="calça"> </td>
+                                <td>  Calça Jeans </td>
+                                <td> 10,00 </td>
+                                <td> 1 </td>
+                                <td> 10,00 </td>
+                                <td> 
+                                    <form name="" method="post" action="">
+                                        <input type="hidden" name="pro_id" value="#">    
+                                        <input type="hidden" name="acao" value="del">    
+                                                
+                                        <button class="btn-del"> Excluir </button>
+                                    </form>
+                                </td>                                                                              
+                            </tr>
+                        </table>           
+<!-- fim da listagem itens -->
+   </section>
+
+   <script type="text/javascript" src="js/comercial2.js"></script>
+</body>
+</html>
