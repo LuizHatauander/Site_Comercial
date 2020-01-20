@@ -1,0 +1,21 @@
+.text-table
+{
+    margin: 0%;
+    color: white;
+    font-size: 15pt;
+    text-align: center;
+}
+
+.tabela
+{
+    margin-bottom: 16%;
+    border-collapse: collapse;
+}
+
+table td
+{
+    border: 0.5px solid rgba(197, 195, 195, 0.795);
+    padding: 5px;
+    align-items: center;
+}
+
