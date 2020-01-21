@@ -52,29 +52,48 @@
                                 <td></td> 
                                 <td>Produto</td> 
                                 <td>Valor R$</td> 
-                                <td>X</td> 
+                                <td>Qtd</td> 
                                 <td>Sub Total R$</td> 
                                 <td></td>                                        
                             </tr>
                             <tr>                                      
-                                <td> <img src="imgprodutos/camisadegrade.jpg" width="80px" height="80px" alt="calça"> </td>
-                                <td>  Calça Jeans </td>
-                                <td> 10,00 </td>
-                                <td> 1 </td>
-                                <td> 10,00 </td>
-                                <td> 
+                                <td> <img src="imgprodutos/camisadegrade.jpg" width="80px" height="90px" alt="calça"> </td>
+                                <td style="font-size: 14pt; color: rgb(61, 60, 60);">  Camisa Polo Degradê </td>
+                                <td style="font-size: 14pt; color: rgb(61, 60, 60);"> 160,00 </td>
+                                <td style="font-size: 14pt; color: rgb(61, 60, 60);"> 1 </td>
+                                <td style="font-size: 14pt; color: rgb(61, 60, 60);"> 160,00 </td>
+                                <td style="text-align: center;"> 
                                     <form name="" method="post" action="">
                                         <input type="hidden" name="pro_id" value="#">    
                                         <input type="hidden" name="acao" value="del">    
                                                 
-                                        <button class="btn-del"> Excluir </button>
+                                        <button class="btn-del" id="btn-buy"> X </button>
                                     </form>
                                 </td>                                                                              
                             </tr>
                         </table>           
-<!-- fim da listagem itens -->
+                            <!-- fim da listagem itens -->
+                            <button class="btn-compMais"> Comprar Mais </button>
+                            <input class="cep" placeholder="   informe seu CEP">
+                            <button class="frete"> Calcular Frete </button>
+
+                    <hr style="width: 80%; margin-left: 0.5%; margin-bottom: 1%;"> 
+
+                    <div class="botoes-compras">
+                       <!--button class="btn-compMais"> Comprar Mais </!--button-->
+                       <button class="btn-delTudo"> Excluir Tudo </button>
+                       <button class="btn-conf"> Confirmar Pedido </button>
+                    </div>
    </section>
 
-   <script type="text/javascript" src="js/comercial2.js"></script>
+       <div id="rodape"> 
+          <div class="inf-text">
+            <h1>Loja do SidSan</h1>
+            <p>Sidnei Santiago - Todos os direitos reservados</p>
+            <p>Salvador, 07/01/2019</p>
+          </div>
+       </div>
+
+   <script type="text/javascript" src="js/compra.js"></script>
 </body>
 </html>
