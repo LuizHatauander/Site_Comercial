@@ -1,0 +1,104 @@
+.text-table
+{
+    margin: 0%;
+    color: white;
+    font-size: 15pt;
+    text-align: center;
+}
+
+.tabela
+{
+    margin-bottom: 0.5%;
+    border-collapse: collapse;
+    border-radius: 2px;
+    width: 90%;
+}
+
+table td
+{
+    border: 0.5px solid rgba(197, 195, 195, 0.795);
+    padding: 5px;
+    align-items: center;
+}
+
+.btn-del
+{
+    background-color: rgba(255, 0, 0, 0.801);
+    border: 1px solid rgb(10, 10, 10); 
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-family: Times;
+    color: rgb(253, 249, 249);
+}
+
+.cep
+{
+    border-radius: 3px;
+    width: 20%;
+    height: 35px;
+    margin-left: 18%;
+    margin-right: 2%;
+    border: 0.5px solid slategray;
+}
+
+::-webkit-input-placeholder  {color:rgb(131, 134, 131); font-size: 12pt;}
+
+.frete
+{
+    width: 20%;
+    border-radius: 3px;
+    height: 38px;
+    border: 1px solid rgb(252, 227, 0);
+    background-color: rgb(241, 245, 244);
+    font-size: 12pt;
+    margin-bottom: 4%;
+}
+
+.botoes-compras
+{
+    display: flex; 
+    flex-direction: column;
+    margin-top: 0.4%;
+   /* border: 1px solid black;*/
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+.btn-compMais
+{
+    margin-left: 0%;
+    width: 20%;
+    border-radius: 4px;
+    height: 36px;
+    border: 1px solid rgb(26, 100, 134);
+    background-color:#204d74;
+    color: rgb(241, 234, 224);
+    font-size: 12pt;
+    margin-bottom: 2%;
+}
+
+.btn-delTudo
+{
+    margin-left: 75%;
+    width: 25%;
+    border-radius: 4px;
+    height: 36px;
+    border: 1px solid rgb(216, 44, 44);
+    background-color: rgb(216, 44, 44);
+    color: rgb(241, 234, 224);
+    font-size: 12pt;
+    margin-bottom: 2%;
+}
+
+.btn-conf
+{
+    margin-left: 75%;
+    width: 25%;
+    border-radius: 4px;
+    height: 36px;
+    border: 1px solid rgb(54, 204, 54);
+    background-color: rgb(34, 204, 34);
+    color: rgb(230, 229, 227);
+    font-size: 12pt;
+    margin-bottom: 1%;
+}
