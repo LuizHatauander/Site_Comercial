@@ -17,6 +17,34 @@
 
 #subopcoes {margin-left: 6%; display: flex;}
 
+.input
+{
+  margin-top: 5px;
+  margin-left: 35%;
+  margin-right: 0%;
+  border-radius: 5px 0px 0px 5px;
+  border: 0.3px;
+  height: 34px;
+  padding-left: 0.5%;
+}
+
+.button
+{
+  background-color: #3d3d3d00;
+  margin-top: 5px;
+  border-radius: 0px 5px 5px 0px;
+  width: 41px;
+  height: 36px;
+  border: 1px  solid rgb(47, 157, 85);
+  padding-left: 3px;
+}
+
+.button:hover
+{
+  background-color: rgba(47, 157, 86, 0.295);
+  border: 0.5px solid rgba(47, 157, 86, 0.295);
+}
+
 .icons:hover {
   background-color: rgb(89, 129, 139);
   border-radius: 5px;
