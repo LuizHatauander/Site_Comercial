@@ -21,6 +21,12 @@ table td
     align-items: center;
 }
 
+.btn-tbl
+{
+    width: 68%;
+    margin-bottom: 3%; 
+}
+
 .btn-del
 {
     background-color: rgba(255, 0, 0, 0.801);
@@ -33,11 +39,11 @@ table td
 
 .cep
 {
+    padding-left: 2%;
     border-radius: 3px;
-    width: 20%;
+    width: 30%;
     height: 35px;
-    margin-left: 28%;
-    margin-right: 2%;
+    margin-left: 68%;
     border: 0.5px solid slategray;
 }
 
@@ -45,13 +51,13 @@ table td
 
 .frete
 {
-    width: 20%;
+    width: 100%;
     border-radius: 3px;
     height: 38px;
     border: 1px solid rgb(252, 227, 0);
     background-color: rgb(241, 245, 244);
     font-size: 12pt;
-    margin-bottom: 4%;
+    margin-left: 1%;
 }
 
 .botoes-compras
@@ -66,14 +72,13 @@ table td
 
 .btn-compMais
 {
-    width: 20%;
+    width: 70%;
     border-radius: 4px;
     height: 36px;
     border: 1px solid rgb(26, 100, 134);
     background-color:#204d74;
     color: rgb(241, 234, 224);
     font-size: 12pt;
-    margin-bottom: 2%;
 }
 
 .btn-delTudo
