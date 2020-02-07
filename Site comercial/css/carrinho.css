@@ -105,3 +105,11 @@ table td
     font-size: 12pt;
     margin-bottom: 1%;
 }
+
+@media(max-width: 927px)
+{
+    body{display: flex; flex-direction: column;}
+    .btn-tbl {margin-left: 25%;}
+    #menu {display: flex; justify-content: center; width: 100%;}
+    .tabela {display: flex; justify-content: center;}
+}
