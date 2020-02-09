@@ -109,7 +109,30 @@ table td
 @media(max-width: 927px)
 {
     body{display: flex; flex-direction: column;}
-    .btn-tbl {margin-left: 25%;}
+    
     #menu {display: flex; justify-content: center; width: 100%;}
+    #search {margin-bottom: -37%;}
+    .btn-tbl {margin-left: 25%;}
     .tabela {display: flex; justify-content: center;}
+    .input {margin-left: 2%; width: 100px;}
+    .button {margin-right: 0%; margin-left: -2%;}
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      #subopcoes {
+        display: none;
+        position: absolute;
+        background-color: #61cdd4;
+        max-width: 185px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+      
+      .dropdown:hover #subopcoes {
+        display: block;
+      }
 }
