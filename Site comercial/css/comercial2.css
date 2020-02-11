@@ -1,5 +1,11 @@
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
 
+.fa-search
+{
+  color: white;
+  font-size: 14pt;
+}
+
 #topo { min-height: 100px;
         background-color: #204d74;
         color: #fff;
