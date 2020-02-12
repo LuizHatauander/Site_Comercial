@@ -63,7 +63,7 @@
 .prd1
     {
       border-radius: 13px;
-      min-height: 300px;
+      height: 390px;
       box-shadow:6px 6px 10px #adadad;
       width: 280px;
       margin-left: 6%;
@@ -77,11 +77,9 @@
 
 .preco {color: #FF6347;}
 
-.imgs { padding-top: 15px; padding-left: 1.5px; 
+.imgs {  padding-left: 1.5px; 
         border-radius: 15px 15px 15px 15px;
-        width: 80%; height: 65%;} 
-
-.text {margin-bottom: 2%;}
+        height: 59%; width: 80%; margin-top: 10%;} 
 
 .container {display: flex; flex-wrap: wrap; 
 	          align-content: stretch;
