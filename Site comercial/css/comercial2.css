@@ -22,7 +22,7 @@
          color: #fff; 
          padding-top:30px;}  
 
-#subopcoes {margin-left: 6%; display: flex;}
+#subopcoes {margin-left: 2%; display: flex;}
 
 .input
 {
@@ -52,13 +52,29 @@
   border: 0.5px solid rgba(47, 157, 86, 0.295);
 }
 
-.icons:hover {
+/*.icons:hover {
   background-color: rgb(89, 129, 139);
   border-radius: 5px;
   }
 
 .icons-barra {margin-top: 8%; margin-left: 5px;}   
+*/
+.ico
+{
+  margin-top: 0.3%;
+  /*border: 1px solid black;*/
+  height: 28px;
+  width: 8%;
+  padding-top: 1%;
+  padding-left: 1%;
+}
 
+.ico:hover
+{
+  background-color: black;
+  color: yellow;
+  border-radius: 3px;
+}
 
 .prd1
     {
