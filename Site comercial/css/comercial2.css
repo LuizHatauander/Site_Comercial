@@ -63,6 +63,11 @@
 .navbar
 {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 14pt;
+  margin-top: 0.8%;
+  border: 1px solid black;
 }
 
 .ico
