@@ -59,6 +59,12 @@
 
 .icons-barra {margin-top: 8%; margin-left: 5px;}   
 */
+
+.navbar
+{
+  list-style-type: none;
+}
+
 .ico
 {
   margin-top: 0.3%;
