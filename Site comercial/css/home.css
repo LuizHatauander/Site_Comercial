@@ -1,11 +1,11 @@
 
-.container 
+.grid 
 {   display: flex; flex-wrap: wrap; 
     align-content: stretch;
     margin-top: 2%;
 }	  
 
-.imgs 
+.img 
 {   padding-left: 1.5px; 
     border-radius: 15px 15px 15px 15px;
     height: 59%; width: 80%; margin-top: 10%;
