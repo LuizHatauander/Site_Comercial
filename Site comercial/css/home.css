@@ -26,3 +26,20 @@
 }
 
 .prd:hover{background-color:  rgb(182, 200, 204);}
+
+.sub-div
+{
+   height: 39px;
+   border-radius: 0px 0px 13px 13px;
+   background-color: #204d74;
+   color: white;
+   margin-bottom: 15px;
+}
+
+.sub-div h3
+{
+    margin-top: 2%;
+}
+
+
+
