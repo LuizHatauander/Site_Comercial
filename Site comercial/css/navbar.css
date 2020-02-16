@@ -10,6 +10,11 @@
   padding-top: 0.5%;
 }
 
+#navbar a:link
+{
+  text-decoration: black none;
+}
+
 #navbar i
 {
     display: flex;
@@ -17,6 +22,7 @@
     align-items: center;
     padding: 8px;
     border-radius: 5px;
+    color: black;
 }
 
 #navbar i:hover {
