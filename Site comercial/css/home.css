@@ -3,18 +3,19 @@
 {   display: flex; flex-wrap: wrap; 
     align-content: stretch;
     margin-top: 2%;
+    justify-content: center;
 }	  
 
 .img 
 {   padding-left: 1.5px; 
     border-radius: 15px 15px 15px 15px;
-    height: 59%; width: 80%; margin-top: 10%;
+    height: 79%; width: 80%; margin-top: 10%;
 }
 
 .prd
 {
     border-radius: 13px;
-    height: 390px;
+    height: 350px;
     box-shadow:6px 6px 10px #adadad;
     width: 280px;
     margin-left: 6%;
@@ -23,3 +24,5 @@
     font-family: Arial;
     margin-bottom: 15px;
 }
+
+.prd:hover{background-color:  rgb(182, 200, 204);}
