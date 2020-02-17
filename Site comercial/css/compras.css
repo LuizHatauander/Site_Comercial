@@ -19,7 +19,12 @@
 .btn a:link
 {
     text-decoration: none;
-}      
+} 
+
+.btn a p
+{
+    color: white;
+}
       
 .comp {font: normal 20px Arial; margin-top: 4%;}
 
