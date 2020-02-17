@@ -52,14 +52,6 @@
   border: 0.5px solid rgba(47, 157, 86, 0.295);
 }
 
-/*.icons:hover {
-  background-color: rgb(89, 129, 139);
-  border-radius: 5px;
-  }
-
-.icons-barra {margin-top: 8%; margin-left: 5px;}   
-*/
-
 .ico
 {
   margin-top: 0.3%;
@@ -89,6 +81,11 @@
       font-family: Arial;
       margin-bottom: 15px;
     }
+
+.prd1 a:link
+{
+  text-decoration: none;
+}  
 
 .prd1:hover{background-color:  rgb(182, 200, 204);}
 
