@@ -25,7 +25,68 @@
     color: black;
 }
 
-#navbar i:hover {
+
+label[for="bt_menu"] 
+{
+    padding: 5px;
+    background-color: #222;
+    color: #fff;
+    font-family: 'Arial';
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 40px;
+    display: none;
+}
+    
+#bt_menu 
+{
+  display: none;
+}
+
+#navbar i:hover 
+{
     background: rgb(20, 20, 20);
     color: rgb(216, 213, 56);
-    }
+}
+
+@media(max-width: 800px)
+{
+   #navbar
+   {
+     display: flex;
+     flex-direction: column;
+   }
+
+  #subopcoes
+  {
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  label[for="bt_menu"] 
+  {
+    display: block;
+  }
+
+  #bt_menu:checked ~ .menu-nav 
+  {
+    margin-left: 0;
+  }
+
+  .menu-nav {
+    max-width: 300px;
+    background-color: #222;
+    margin-top: 5px;
+    margin-left: -100%;
+    transition: all .4s;
+   }
+ 
+   .menu-nav ul li {
+    width: 100%;
+    float: none;
+   }
+ 
+}
