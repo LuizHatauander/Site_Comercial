@@ -111,11 +111,8 @@ table td
     body{display: flex; flex-direction: column;}
     
     #menu {display: flex; justify-content: center; width: 100%;}
-    #search {margin-bottom: -37%;}
     .btn-tbl {margin-left: 25%;}
     .tabela {display: flex; justify-content: center;}
-    .input {margin-left: 2%; width: 100px;}
-    .button {margin-right: 0%; margin-left: -2%;}
 
     .dropdown {
         position: relative;
