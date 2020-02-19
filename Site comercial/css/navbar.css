@@ -51,6 +51,13 @@ label[for="bt_menu"]
     color: rgb(216, 213, 56);
 }
 
+.menu-nav
+{
+  display: flex;
+  width: 70%;
+  height: 50px;
+}
+
 @media(max-width: 800px)
 {
    #navbar
@@ -76,17 +83,38 @@ label[for="bt_menu"]
     margin-left: 0;
   }
 
-  .menu-nav {
-    max-width: 300px;
-    background-color: #222;
+  .menu-nav 
+  {
+    max-width: 160px;
+    height: 250px;
+    background-color: rgb(53, 111, 158);
     margin-top: 5px;
     margin-left: -100%;
     transition: all .4s;
-   }
+    flex-direction: column;
+  }
  
-   .menu-nav ul li {
+ .menu-nav ul li 
+  {
     width: 100%;
-    float: none;
-   }
- 
+    text-align: center;
+  }
+
+ .input
+ {
+  width: 65%;
+  margin-left: 3%;
+ /* border-radius: 5px 5px 5px 5px;
+  margin-bottom: 0px;*/
+ }
+
+ .button
+ {
+   margin-left: 69%;
+   margin-bottom: 1%;
+   /*border-radius: 5px 5px 5px 5px;
+   height: 25px;
+   width: 35%;*/
+ }
+
 }
