@@ -79,11 +79,8 @@ label[for="bt_menu"]
 
    #navbar i
    {
-     /*padding-left: 58px;
-     padding-right: 88px;*/
     width: 140px;
     justify-content: left;
-    border: 1px solid black;
     margin-left: -70%;
    }
 
