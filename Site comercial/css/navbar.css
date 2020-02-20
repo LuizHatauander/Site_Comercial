@@ -61,7 +61,7 @@ label[for="bt_menu"]
 {
   display: flex; 
   flex-direction: row; 
-  margin-left: 50%;
+  margin-left: 55%;
 }
 
 @media(max-width: 800px)

@@ -32,7 +32,7 @@
   border-radius: 5px 0px 0px 5px;
   border: 0.3px;
   height: 34px;
-  padding-left: 1%;
+  padding-left: 5px;
   width: 110px;
 }
 
@@ -41,7 +41,7 @@
   background-color: #3d3d3d00;
   margin-top: 5px;
   border-radius: 0px 5px 5px 0px;
-  width: 41px;
+  min-width: 41px;
   height: 36px;
   border: 1px  solid rgb(47, 157, 85);
   padding-left: 3px;
