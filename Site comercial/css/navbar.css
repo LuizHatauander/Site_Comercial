@@ -79,9 +79,12 @@ label[for="bt_menu"]
 
    #navbar i
    {
+     padding-right: 102px;
+     padding-top: 14px;
+     padding-bottom: 14px;
     width: 140px;
     justify-content: left;
-    margin-left: -70%;
+    margin-left: -35%;
    }
 
   #subopcoes
@@ -103,7 +106,7 @@ label[for="bt_menu"]
 
   .menu-nav 
   {
-    max-width: 160px;
+    max-width: 260px;
     height: 250px;
     background-color: #204d74;
     margin-top: 5px;
