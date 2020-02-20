@@ -1,7 +1,7 @@
 /*Referente a div da foto da camisa*/
-.foto-prd {margin-left: 6%; margin-bottom: 4%; border: 1px solid rgb(119, 116, 116); 
+.foto-prd {margin-left: 6%; margin-bottom: 4%; border: 1px solid rgb(119, 116, 116, 0.411); 
            margin-right: 8.2%; border-radius: 5px; height: 480px; width: 400px; 
-           box-shadow: 5px 5px 0px 0px rgba(124, 123, 123,0.550);}
+           box-shadow: 5px 5px 0px 0px rgba(124, 123, 123,0.411);}
 
 /*div da div de pagamento e compra*/         
 .pagmenos {margin-left: 15%; width: 280px; height: 130px; align-content: stretch;}
@@ -9,7 +9,7 @@
 /*referente a cimasa degrade*/
 .produtos {width:300px; height:420px; margin-left: 12.5%; margin-top: 7%; border-radius: 5px;}
 
-.div-pagmenos {border: 1px solid rgb(119, 116, 116); border-radius: 15px; 
+.div-pagmenos {border: 1px solid rgba(119, 116, 116, 0.411); border-radius: 15px; 
                height: 210px; width: 400px; box-shadow: 7px 7px 0px 0px rgba(124, 123, 123, 0.5);
                margin-left: 6%;}
             
@@ -45,7 +45,7 @@
 
 .mais-img2 
 {
-    border: 1px solid rgba(124, 123, 123, 0.5);
+    border: 1px solid rgba(124, 123, 123, 0.411);
     width: 200px;
     height: 200px;
     margin-left: 5%;
