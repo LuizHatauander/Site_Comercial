@@ -25,7 +25,6 @@
     color: black;
 }
 
-
 label[for="bt_menu"] 
 {
     padding: 5px;
@@ -58,12 +57,34 @@ label[for="bt_menu"]
   height: 50px;
 }
 
+.section
+{
+  display: flex; 
+  flex-direction: row; 
+  margin-left: 50%;
+}
+
 @media(max-width: 800px)
 {
+   .section
+   {
+     margin-left: 1%;
+   }
+
    #navbar
    {
      display: flex;
      flex-direction: column;
+   }
+
+   #navbar i
+   {
+     /*padding-left: 58px;
+     padding-right: 88px;*/
+    width: 140px;
+    justify-content: left;
+    border: 1px solid black;
+    margin-left: -70%;
    }
 
   #subopcoes
@@ -96,25 +117,13 @@ label[for="bt_menu"]
  
  .menu-nav ul li 
   {
-    width: 100%;
-    text-align: center;
+    text-align: left;
   }
 
  .input
  {
   width: 65%;
   margin-left: 3%;
- /* border-radius: 5px 5px 5px 5px;
-  margin-bottom: 0px;*/
- }
-
- .button
- {
-   margin-left: 69%;
-   margin-bottom: 1%;
-   /*border-radius: 5px 5px 5px 5px;
-   height: 25px;
-   width: 35%;*/
  }
 
 }
