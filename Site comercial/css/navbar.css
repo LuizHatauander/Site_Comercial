@@ -105,7 +105,7 @@ label[for="bt_menu"]
   {
     max-width: 160px;
     height: 250px;
-    background-color: rgb(53, 111, 158);
+    background-color: #204d74;
     margin-top: 5px;
     margin-left: -100%;
     transition: all .4s;
