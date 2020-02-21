@@ -79,13 +79,19 @@ label[for="bt_menu"]
 
    #navbar i
    {
-     padding-right: 102px;
-     padding-top: 14px;
-     padding-bottom: 14px;
+    padding-right: 102px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     width: 140px;
     justify-content: left;
     margin-left: -35%;
    }
+
+   #navbar i:hover 
+{
+    background: rgb(56, 113, 199);
+    color: rgb(238, 238, 238);
+}
 
   #subopcoes
   {
@@ -113,6 +119,7 @@ label[for="bt_menu"]
     margin-left: -100%;
     transition: all .4s;
     flex-direction: column;
+    position: relative;
   }
  
  .menu-nav ul li 
