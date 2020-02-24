@@ -105,7 +105,7 @@
   flex-direction: row;
 }
 
-@media(max-width: 720px)
+@media(max-width: 920px)
 { 
   .foto-prd
   {
@@ -130,5 +130,6 @@
   {
     margin-bottom: 2%;
   }
+
 }
 
