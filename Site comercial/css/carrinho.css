@@ -12,6 +12,7 @@
     border-collapse: collapse;
     border-radius: 2px;
     width: 90%;
+    margin-left: 23%;
 }
 
 table td
@@ -43,11 +44,11 @@ table td
     border-radius: 3px;
     width: 30%;
     height: 35px;
-    margin-left: 68%;
+    margin-left: 85%;
     border: 0.5px solid slategray;
 }
 
-::-webkit-input-placeholder  {color:rgb(131, 134, 131); font-size: 12pt;}
+::-webkit-input-placeholder  {color:rgb(131, 134, 131); font-size: 11pt;}
 
 .frete
 {
@@ -57,16 +58,18 @@ table td
     border: 1px solid rgb(252, 227, 0);
     background-color: rgb(241, 245, 244);
     font-size: 12pt;
-    margin-left: 1%;
+    margin-left: 45%;
 }
 
 .botoes-compras
 {
+    border: 1px solid black;
     display: flex; 
     flex-direction: column;
     margin-top: 0.4%;
-    width: 85%;
+    width: 65%;
     margin-bottom: 2%;
+    margin-left: 26%;
 }
 
 .btn-compMais
@@ -78,6 +81,7 @@ table td
     background-color:#204d74;
     color: rgb(241, 234, 224);
     font-size: 12pt;
+    margin-left: 23%;
 }
 
 .btn-delTudo
@@ -106,17 +110,69 @@ table td
     margin-bottom: 1%;
 }
 
-@media(max-width: 927px)
+@media(max-width: 926px)
 {
-    body{display: flex; flex-direction: column;}
-    
-    #menu {display: flex; justify-content: center; width: 100%;}
-    .btn-tbl {margin-left: 25%;}
-    .tabela {display: flex; justify-content: center;}
+    .section-1
+    {
+        display: flex;
+        flex-direction: column;
+    }
 
-    .dropdown {
-        position: relative;
-        display: inline-block;
-      }
-         
+    .tabela
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-tbl
+    {
+        margin-left: 15%;
+        width: 80%;
+    }
+
+    .btn-compMais
+    {
+        margin-left: 7%;
+        margin-right: 0;
+    }
+
+    .cep
+    {
+        margin-left: 10%;
+        width: 60%;
+    }
+
+    .frete
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .btn-delTudo
+    {
+         margin-left: 5%;
+         width: 110px;
+    }
+
+    .btn-conf
+    {
+        margin-left: 5%;
+        width: 110px;
+    }
+
+    .botoes-compras
+    {
+        border: 1px solid black;
+        padding: 0;
+        display: flex;
+        flex-direction: inherit;
+    }
+
+    .botoes-compras h2
+    {
+        font-size: 14pt;
+        margin-left: 5%;
+        margin-bottom: -10%;
+    }
 }
+
