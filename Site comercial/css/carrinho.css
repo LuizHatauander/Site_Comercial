@@ -22,10 +22,12 @@ table td
     align-items: center;
 }
 
-.btn-tbl
+.sec-btn
 {
     width: 68%;
-    margin-bottom: 3%; 
+    margin-left: 23%;
+    display: flex;
+    margin-bottom: 2%;
 }
 
 .btn-del
@@ -42,9 +44,9 @@ table td
 {
     padding-left: 2%;
     border-radius: 3px;
-    width: 30%;
+    width: 15%;
     height: 35px;
-    margin-left: 85%;
+    margin-right: 5%;
     border: 0.5px solid slategray;
 }
 
@@ -52,13 +54,12 @@ table td
 
 .frete
 {
-    width: 100%;
+    width: 25%;
     border-radius: 3px;
     height: 38px;
     border: 1px solid rgb(252, 227, 0);
     background-color: rgb(241, 245, 244);
     font-size: 12pt;
-    margin-left: 45%;
 }
 
 .botoes-compras
@@ -73,14 +74,14 @@ table td
 
 .btn-compMais
 {
-    width: 70%;
+    width: 25%;
     border-radius: 4px;
     height: 36px;
     border: 1px solid rgb(26, 100, 134);
     background-color:#204d74;
     color: rgb(241, 234, 224);
     font-size: 12pt;
-    margin-left: 23%;
+    margin-right: 30%;
 }
 
 .btn-delTudo
@@ -123,28 +124,27 @@ table td
         justify-content: center;
     }
 
-    .btn-tbl
+    .sec-btn
     {
-        margin-left: 15%;
-        width: 80%;
+        display: flex;
+        flex-direction: column;
     }
 
     .btn-compMais
     {
-        margin-left: 7%;
-        margin-right: 0;
+        width: 100%;
+        margin-bottom: 5%;
     }
 
     .cep
     {
-        margin-left: 10%;
-        width: 60%;
+        width: 97.5%;
+        margin-bottom: 1%;
     }
 
     .frete
     {
-        margin-left: 0;
-        margin-right: 0;
+        width: 100%;
     }
 
     .btn-delTudo
