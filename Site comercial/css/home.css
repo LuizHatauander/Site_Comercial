@@ -1,3 +1,8 @@
+body 
+{
+    font-family: 'Heebo';
+}
+
 .grid 
 {   display: flex; flex-wrap: wrap; 
     align-content: stretch;
