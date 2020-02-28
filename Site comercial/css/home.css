@@ -1,4 +1,3 @@
-
 .grid 
 {   display: flex; flex-wrap: wrap; 
     align-content: stretch;
@@ -42,6 +41,3 @@
 {
     margin-top: 2%;
 }
-
-
-
