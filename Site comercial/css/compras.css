@@ -3,8 +3,7 @@
 {
   display: flex;
   align-items: center;
-  justify-content: center;  
-  /*margin-left: 8%;*/ 
+  justify-content: center;   
   border: 1px solid rgb(119, 116, 116, 0.411); 
   border-radius: 5px; 
   height: 480px; width: 400px; 
