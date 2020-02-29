@@ -16,12 +16,17 @@
 
 #menu a:link {
 		background: white;
-		color: #666;
+		color: rgb(41, 40, 40);
 		font-weight: bold;
 		text-decoration: none;
 		padding: 8px;
 		display: block;		
 		}
+
+#menu a
+{
+	color: rgb(41, 40, 40);
+}		
 
 #menu a:hover {
 		background: rgb(70, 69, 69);
